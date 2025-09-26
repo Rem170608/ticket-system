@@ -48,3 +48,10 @@ Thumbs.db
 *.mov
 *.wmv
 
+# package files
+*.tgz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+package*

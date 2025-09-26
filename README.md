@@ -1,10 +1,8 @@
-# tema-backend
-
-> 
-
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+
+This is a rework of the Vibecoded Ticket system for ÜK 187, by Leon and Raffael
 
 ## Getting Started
 
@@ -68,7 +66,6 @@ For more information on all the things you can do with Feathers visit [docs.feat
     - In der Datenbank
 - **Passwörter von der Datenbank verschlüsselt im Code abspeichern**
 - **Bessere Kategorie Auswahl**
-    - Support
     - Frage
     - Problem
     - Korrektur

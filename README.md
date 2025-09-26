@@ -38,9 +38,8 @@ $ feathers generate service               # Generate a new Service
 $ feathers generate hook                  # Generate a new Hook
 $ feathers help                           # Show all commands
 ```
-## Noch wichtig !!
-Die Datenbank ist derzeit auf der vm und wird für die Daten Verarbeitung gebraucht 
-Name der DB ist **noserq** welche über **MySQL** auf der vm erreichbar ist
+## Important !!
+The Database is currently on a **VM** the name is **noserq** the Database is reachable with **MySQL** on the **VM**
 
 ## Help
 

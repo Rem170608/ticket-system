@@ -22,14 +22,6 @@ Getting up and running is as easy as 1, 2, 3.
     npm start
     ```
 
-## Files
-- **Admin.php:** ist die Verwaltungsseite wo man Tickets löschen und Verwalten kann
-- **Submit.php:** Logik des Tickets, damit dieses auch korrekt anzeigt welche Nummer und ist verbunden mit dem admin.php und dem live.php
-- **Index.php:** dort sollte jeder ein Ticket erstellen können 
-- **Live.php:** dort werden alle Tickets angezeigt ( für die Tafel) damit jeder Bescheid weiss wer als nächstes dran kommt ( aktualisiert Live alle 3 Sekunden im Hintergrund)
-- **API.php:** ist für generelle Logik für die Live Anzeige und die Verbindung dazu 
-- **Delete.php:** ist die Logik für das löschen der Tickets im admin.php damit diese Einträge auch in der Datenbank gelöscht werden 
-- **Success.php:** ist für für das Speichern des Tickets und der Anzeige des Tickets welches erstellt wurde da 
 
 ## Testing
 

@@ -54,4 +54,4 @@ Thumbs.db
 *.tar
 *.tar.gz
 *.rar
-package*
+*.7z

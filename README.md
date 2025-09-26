@@ -2,7 +2,7 @@
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
 
-This is a rework of the Vibecoded Ticket system for ÜK 187, by Leon and Raffael
+This is a rework of the Vibecoded Ticket system for ÜK 187, by Leon and Raffael.
 
 ## Getting Started
 

@@ -78,6 +78,15 @@
   button:hover {
     background-color: #3749d6;
   }
+  .kategorie {
+    width: 100%;
+    padding: 14px 12px;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
 </style>
 </head>
 <body>
@@ -89,7 +98,12 @@
     <img src="logo.png" alt="Next @ Noser Logo" class="logo" />
     <form action="submit.php" method="post">
       <input type="text" name="name" placeholder="Name" required />
-      <input type="text" name="reihe" placeholder="Kategorie" required maxlength="2" />
+      <select name="kategorie" id="option" class="kategorie">
+        <option value="Frage">Frage</option>
+        <option value="Problem">Problem</option>
+        <option value="Korrektur">Korrektur</option>
+
+      </select>
       <button type="submit">
         <i class="fa-solid fa-ticket"></i> Ticket ziehen
       </button>

@@ -57,9 +57,9 @@ For more information on all the things you can do with Feathers visit [docs.feat
     - In der Datenbank
 - **Passwörter von der Datenbank verschlüsselt im Code abspeichern**
 - **Bessere Kategorie Auswahl**
-    - Frage
-    - Problem
-    - Korrektur
+    - **Frage**
+    - **Problem**
+    - **Korrektur**
 - **First ticket delete** 
 - **Ticket clear after 4h**
 - (Code verbessern)

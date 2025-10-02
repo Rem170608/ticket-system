@@ -4,7 +4,7 @@
 Web Application
 
 ## Description
-This is a rework of the [Vibecoded Ticket System](https://github.com/Vibecoded) for ÜK 187. It supports creating, tracking, and managing tickets in real time with both **backend** and **frontend** functionality.
+This is a rework of the Vibecoded Ticket Systemfor ÜK 187. It supports creating, tracking, and managing tickets in real time with both **backend** and **frontend** functionality.
 
 ## Technology Stack
 - npm
@@ -54,7 +54,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 - Inspired by the original Vibecoded Ticket System
-- Built during ÜK 187 training
-
+- Built For use at [Noser Young](https://noseryoung.ch/)
 ## Project Status
 🚧 **In Development** 🚧

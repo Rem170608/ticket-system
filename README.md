@@ -1,5 +1,8 @@
 # Ticket-System
 
+## Project Status
+🚧 **In Development** 🚧
+
 ## Project Type
 Web Application
 
@@ -76,5 +79,4 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 - Inspired by the original Vibecoded Ticket System
 - Built For use at [Noser Young](https://noseryoung.ch/)
-## Project Status
-🚧 **In Development** 🚧
+

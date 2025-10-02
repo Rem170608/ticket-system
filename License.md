@@ -8,7 +8,7 @@ and modify the Software for personal, non-commercial purposes.
 
 Redistribution or sale of the Software, in whole or in part, is allowed **only** if one of the following is done:
 
-1. You contact the copyright holder ([your email/contact]) to request permission; **or**
+1. You contact the copyright [holder](mailto:me@raffaelmaier.com) to request permission; **or**
 2. You redistribute or sell the Software with a visible link to the original repository: https://github.com/Rem170608/ticket-system
 
 The above copyright notice and this permission notice shall be included in all

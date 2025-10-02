@@ -2,8 +2,8 @@
 // MySQL-Verbindung
 $host = "localhost";
 $user = "noserq_user";
-$pass = "fwbge8f0izb37";
-$db = "noserq";
+$pass = "password123456";
+$db = "ticketsys";
 
 // Verbindung aufbauen
 $conn = new mysqli($host, $user, $pass, $db);

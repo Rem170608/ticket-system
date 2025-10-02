@@ -87,6 +87,30 @@
     font-size: 16px;
     box-sizing: border-box;
   }
+  .kategorie-option-frage {
+    background-color: #e0f7fa;
+    color: #00796b;
+  }
+  .kategorie-option-problem {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+  .kategorie-option-korrektur {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  .kategorie-option-frage:hover {
+    background-color: #b2ebf2;
+    border-color: #00796b;
+  }
+  .kategorie-option-problem:hover {
+    background-color: #ffcdd2;
+    border-color: #c62828;
+  }
+  .kategorie-option-korrektur:hover {
+    background-color: #c8e6c9;
+    border-color: #2e7d32;
+  }
 </style>
 </head>
 <body>
@@ -99,9 +123,10 @@
     <form action="submit.php" method="post">
       <input type="text" name="name" placeholder="Name" required />
       <select name="kategorie" id="option" class="kategorie">
-        <option value="Frage">Frage</option>
-        <option value="Problem">Problem</option>
-        <option value="Korrektur">Korrektur</option>
+        <option value="0" default selected>Bitte wählen</option>
+        <option value="Frage" class="kategorie-option-frage">Frage</option>
+        <option value="Problem" class="kategorie-option-problem">Problem</option>
+        <option value="Korrektur" class="kategorie-option-korrektur">Korrektur</option>
 
       </select>
       <button type="submit">

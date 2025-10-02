@@ -1,65 +1,60 @@
-## About
+# Ticket-System
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+## Project Type
+Web Application
 
-This is a rework of the Vibecoded Ticket system for ÜK 187, by Leon and Raffael.
+## Description
+This is a rework of the [Vibecoded Ticket System](https://github.com/Vibecoded) for ÜK 187. It supports creating, tracking, and managing tickets in real time with both **backend** and **frontend** functionality.
 
-## Getting Started
+## Technology Stack
+- npm
+- HTML
+- CSS
+- PHP
 
-Getting up and running is as easy as 1, 2, 3.
+## Target Audience
+End Users
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
+## Installation Complexity
+**Advanced (custom setup)**
 
-    ```
-    cd path/to/tema-backend
-    npm install
-    ```
+This project requires a manual setup and configuration of dependencies, databases, and environment variables.
 
-3. Start your app
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rem170608/ticket-system.git
+   cd ticket-system
+   ```
 
-    ```
-    npm start
-    ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+3. Configure your environment variables and database connection in `.env`.
 
-## Testing
+4. Run the project:
+   ```bash
+   npm run dev
+   ```
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+## Roadmap
+- [ ] Backend improvements
+- [ ] UI enhancements
+- [ ] Ticket search & filter
+- [ ] Role-based access control
+- [ ] Documentation expansion
 
-## Scaffolding
+## Contributing
+Contributions are welcome! Please fork the repository and open a pull request with your improvements.
 
-Feathers has a powerful command line interface. Here are a few things it can do:
+## License
+This project is licensed under the MIT License.
 
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
+## Acknowledgements
+- Inspired by the original Vibecoded Ticket System
+- Built during ÜK 187 training
 
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
-```
-## Important !!
-The Database is currently on a **VM** the name is **noserq** the Database is reachable with **MySQL** on the **VM**
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-
-# To Do
-- Unötige Sachen im code entfernen
-- Unötige Tabellen entfernen
-    - seat
-    - ticket_number
-    - created_at oder Zeit
-- "Reihe" zu "Kategorie" umändern
-    - Bei allen Files
-    - In der Datenbank
-- **Passwörter von der Datenbank verschlüsselt im Code abspeichern**
-- **Bessere Kategorie Auswahl**
-    - **Frage**
-    - **Problem**
-    - **Korrektur**
-- **First ticket delete** 
-- **Ticket clear after 4h**
-- (Code verbessern)
+## Project Status
+🚧 **In Development** 🚧
